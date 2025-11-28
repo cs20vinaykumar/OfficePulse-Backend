@@ -15,8 +15,8 @@ export const STATUS_MESSAGES = {
   FAILED: "Failed",
   ERROR: "An error occurred",
   SOMETHING_WENT_WRONG: "Something went wrong. Please try again!",
-  SERVER_ERROR: "Internal server error. Please try again later.",
-  CONFLICT: "Conflict detected. Please check your request.",
+  SERVER_ERROR: "Internal server error.",
+  CONFLICT: "Conflict detected. Check your request.",
   PRECONDITION_REQUIRED: "Precondition required. Missing necessary parameters.",
 };
 
