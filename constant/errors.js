@@ -71,6 +71,14 @@ export const ERROR_MESSAGES = {
   EMAIL_GATEWAY_DEACTIVATED: "Email gateway is deactivated.",
   GATEWAY_ERROR: "Error occurred while processing email gateway.",
 
+  // Company related errors
+  COMPANY_NOT_FOUND: "Company not found.",
+  INVALID_IS_ACTIVE: "Invalid input for isActive.",
+  INVALID_PREVIOUS_DOCUMENTS: "Invalid input for previousDocuments.",
+  INVALID_SUBSCRIPTION_PLAN: "Invalid subscription plan.",
+  INVALID_EMAIL_OR_PHONE: "Invalid email or phone number.",
+  DUPLICATE_COMPANY: "Company with this email already exists.",
+
   // General Errors
   INVALID_INPUT: "Invalid input for isActive.",
   NOT_FOUND: "Not Found.",

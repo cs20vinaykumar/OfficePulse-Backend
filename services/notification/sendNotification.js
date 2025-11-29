@@ -13,11 +13,15 @@ export const sendNotification = async (
   extraData = {}
 ) => {
   try {
+    if (!receiverInstance) {
+      throw new Error("Receiver instance is required");
+    }
+
     const emailGatewayServiceResponse = await getUserEmailGateway(currentUser);
 
     if (
-      !emailGatewayServiceResponse.success ||
-      !emailGatewayServiceResponse.data?.isActive
+      !emailGatewayServiceResponse?.success ||
+      !emailGatewayServiceResponse?.data?.isActive
     ) {
       return {
         success: false,
@@ -38,7 +42,10 @@ export const sendNotification = async (
       extraData
     );
 
-    if (!compiledEmailServiceResponse.success) {
+    if (
+      !compiledEmailServiceResponse ||
+      !compiledEmailServiceResponse.success
+    ) {
       return {
         success: false,
         error: ServerErrorResponse.customError(
@@ -51,7 +58,22 @@ export const sendNotification = async (
       };
     }
 
-    // Send Email
+    if (
+      !compiledEmailServiceResponse.data?.emailContent ||
+      !compiledEmailServiceResponse.data?.subject
+    ) {
+      return {
+        success: false,
+        error: ServerErrorResponse.customError(
+          false,
+          STATUS_CODE.BAD_REQUEST,
+          STATUS_MESSAGES.FAILED,
+          "Email content or subject missing",
+          null
+        ),
+      };
+    }
+
     const sendEmailServiceResponse = await sendEmail(
       currentUser,
       compiledEmailServiceResponse.data.emailContent,
@@ -65,8 +87,9 @@ export const sendNotification = async (
     };
   } catch (error) {
     errorLog("Error in sendNotification:", error);
-    return res
-      .status(STATUS_CODE.SERVER_ERROR)
-      .json(ServerErrorResponse.internal(error));
+    return {
+      success: false,
+      error: ServerErrorResponse.internal(error),
+    };
   }
 };

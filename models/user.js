@@ -44,7 +44,11 @@ const userSchema = new mongoose.Schema(
       required: false,
       default: "",
     },
-
+    documents: {
+      type: Map,
+      of: String,
+      default: {},
+    },
     isActive: {
       type: Boolean,
       required: false,

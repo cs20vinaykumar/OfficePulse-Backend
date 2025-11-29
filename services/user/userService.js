@@ -3,6 +3,7 @@ import { STATUS_CODE, STATUS_MESSAGES } from "../../constant/status.js";
 import { SUCCESS_MESSAGES } from "../../constant/success.js";
 import User from "../../models/user.js";
 import ServerErrorResponse from "../../utils/classes/ServerErrorResponse.js";
+import ServerSuccessResponse from "../../utils/classes/ServerSuccessResponse.js";
 import { errorLog } from "../../utils/logger.js";
 
 export const getUserByEmail = async (email) => {

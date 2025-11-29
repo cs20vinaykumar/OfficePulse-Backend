@@ -28,5 +28,6 @@ mainRouter.use(locationRoute, cityRouter);
 mainRouter.use(packageRoute, packageRouter);
 mainRouter.use(templateRoute, templateRouter);
 mainRouter.use(emailGatewayRoute, emailGatewayRouter);
+mainRouter.use(superAdminRoute, superAdminRouter);
 
 export default mainRouter;
