@@ -1,5 +1,9 @@
 import { ENVIRONMENTS } from "../constant/basic.js";
 import { infoLog } from "./logger.js";
+import ServerSuccessResponse from "./classes/ServerSuccessResponse.js";
+import { STATUS_CODE, STATUS_MESSAGES } from "../constant/status.js";
+import { SUCCESS_MESSAGES } from "../constant/success.js";
+import { ERROR_MESSAGES } from "../constant/errors.js";
 
 export const getCurrentRunningEnvironment = () => {
   infoLog(`process.env.NODE_ENV: ${process.env.NODE_ENV}`);
@@ -49,4 +53,11 @@ export const generateFileId = () => {
   }
 
   return fileId;
+};
+
+export const generateNewOtpCode = () => {
+  const randomNumber = crypto.randomInt(0, 10000);
+  const otp = String(randomNumber).padStart(4, 5);
+  console.log("Generated OTP:", otp);
+  return otp;
 };

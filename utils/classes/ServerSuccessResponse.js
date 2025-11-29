@@ -1,6 +1,6 @@
 import { STATUS_CODE, STATUS_MESSAGES } from "../../constant/status.js";
 
-class serverSuccessResponse {
+class ServerSuccessResponse {
   constructor(success, statusCode, statusMessage, message, data) {
     (this.success = success),
       (this.statusCode = statusCode),
@@ -9,7 +9,7 @@ class serverSuccessResponse {
       (this.data = data);
   }
   static successResponse(success, code, statusMessage, message, data) {
-    return new serverSuccessResponse(
+    return new ServerSuccessResponse(
       success,
       code,
       statusMessage,
@@ -18,7 +18,7 @@ class serverSuccessResponse {
     );
   }
   static creationResponse(message, data) {
-    return new serverSuccessResponse(
+    return new ServerSuccessResponse(
       true,
       STATUS_CODE.CREATED,
       STATUS_MESSAGES.SUCCESS,
@@ -28,4 +28,4 @@ class serverSuccessResponse {
   }
 }
 
-export default serverSuccessResponse;
+export default ServerSuccessResponse;

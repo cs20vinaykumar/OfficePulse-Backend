@@ -11,4 +11,6 @@ export const SUCCESS_MESSAGES = {
   OPERATION_SUCCESSFUL: "Operation successful.",
   PASSWORD_RESET_SUCCESS: "Password reset successfully.",
   EMAIL_SENT_SUCCESSFULLY: "Email sent successfully.",
+  SMTP_CREDENTIALS_VERIFIED: "SMTP credentials verified successfully.",
+  EMAIL_OPERATION_SUCCESSFUL: "Email operation completed successfully.",
 };

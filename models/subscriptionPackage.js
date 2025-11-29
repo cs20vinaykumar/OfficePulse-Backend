@@ -34,15 +34,6 @@ const packageSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
-    isCompany: {
-      type: Boolean,
-      default: false,
-    },
-    company: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      default: null,
-    },
   },
   {
     timestamps: true,

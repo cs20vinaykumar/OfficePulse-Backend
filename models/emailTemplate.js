@@ -54,7 +54,7 @@ const emailTemplateSchema = new mongoose.Schema(
   }
 );
 
-const EmailTemplateModel = new mongoose.model(
+const EmailTemplateModel = mongoose.model(
   "EmailTemplate",
   emailTemplateSchema,
   "EmailTemplate"

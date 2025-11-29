@@ -1,0 +1,68 @@
+[
+  
+  {
+    "cityName": "Islamabad",
+    "province": "692a0d39b6a309fe0c0eea4a",
+    "country": "692a0ae57e95984ecf10b327"
+  },
+
+
+  {"cityName":"Karachi","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Hyderabad","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Sukkur","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Larkana","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mirpurkhas","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Nawabshah","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Ghotki","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Jacobabad","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Khairpur","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Shaheed Benazirabad","province":"692a0d39b6a309fe0c0eea46","country":"692a0ae57e95984ecf10b327"},
+
+
+  {"cityName":"Lahore","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Faisalabad","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Rawalpindi","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Multan","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Gujranwala","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Sialkot","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Bahawalpur","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Sargodha","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Jhang","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Sheikhupura","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Dera Ghazi Khan","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mianwali","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Okara","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Kasur","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Jhelum","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Pakpattan","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Layyah","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Rajanpur","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mandi Bahauddin","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Sahiwal","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Kharian","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Pindi Bhattian","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Chiniot","province":"692a0d39b6a309fe0c0eea45","country":"692a0ae57e95984ecf10b327"},
+
+
+  {"cityName":"Peshawar","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mardan","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Abbottabad","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Swat","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Kohat","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Bannu","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Dera Ismail Khan","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Dir","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mansehra","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Nowshera","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Mingora","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Charsadda","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Shangla","province":"692a0d39b6a309fe0c0eea47","country":"692a0ae57e95984ecf10b327"},
+
+
+  {"cityName":"Quetta","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Gwadar","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Turbat","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Khuzdar","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Kalat","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"},
+  {"cityName":"Zhob","province":"692a0d39b6a309fe0c0eea48","country":"692a0ae57e95984ecf10b327"}
+]
