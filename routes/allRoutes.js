@@ -19,9 +19,11 @@ import cityRouter from "./locations/cityRouter.js";
 import packageRouter from "./subscriptionPackage/subscriptionPackageRouter.js";
 import templateRouter from "./emailTemplate/emailtemplateRouter.js";
 import emailGatewayRouter from "./emailGateway/emailGatewayRouter.js";
+import forgotPasswordRouter from "./userAuth/forgotPassword.js";
 
 mainRouter.use(superAdminRoute, superAdminRouter);
 mainRouter.use(authRoute, authRouter);
+mainRouter.use(authRoute, forgotPasswordRouter);
 mainRouter.use(locationRoute, countryRouter);
 mainRouter.use(locationRoute, provinceRouter);
 mainRouter.use(locationRoute, cityRouter);

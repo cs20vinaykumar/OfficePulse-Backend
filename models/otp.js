@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { OTP_PURPOSES } from "../constant/roles.js";
 
-const purposeEnum = [OTP_PURPOSES.LOGIN, OTP_PURPOSES.FORGOT_PASSWORD];
+const purposeEnum = [OTP_PURPOSES.LOGIN, OTP_PURPOSES.PASSWORD_RESET];
 
 const otpSchema = new mongoose.Schema({
   emailAddress: {

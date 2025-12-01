@@ -19,6 +19,8 @@ export const ERROR_MESSAGES = {
   INACTIVE_ACCOUNT: "Your account is deactivated, please contact your admin.",
   BANNED: "You have violated our Privacy Policy & Terms.",
 
+  OTP_GENERATION_FAILED: "Failed to generate OTP. Please try again later.",
+
   // Country related errors
   COUNTRY_NAME_REQUIRED: "Country name is required.",
   COUNTRY_CODE_REQUIRED: "Country code is required.",
@@ -97,7 +99,7 @@ export const UNAUTHORIZE_MESSAGES = {
   NOT_LOGGED_IN: "You are not logged in.",
   INCORRECT_PASSWORD: "Incorrect password.",
   OTP_EXPIRED: "OTP has expired.",
-  OTP_INVALID: "OTP is invalid.",
+  OTP_INVALID: "OTP is invalid or expired, please try again.",
   INVALID_JWT: "Invalid token! Please login again.",
   EXPIRED_JWT: "Your token has expired! Please login again.",
   INVALID_EXPIRED: "Token is invalid or expired.",

@@ -7,8 +7,8 @@ import { SUCCESS_MESSAGES } from "../../constant/success.js";
 import ServerErrorResponse from "../../utils/classes/ServerErrorResponse.js";
 import { UNAUTHORIZE_MESSAGES } from "../../constant/errors.js";
 
-export const generateAndSaveOtp = async (emailAddress) => {
-  const existingOtp = await OTP.findOne({ emailAddress });
+export const generateAndSaveOtp = async (emailAddress, purpose) => {
+  const existingOtp = await OTP.findOne({ emailAddress, purpose });
 
   if (existingOtp) {
     const createdAt = existingOtp.createdAt.getTime();
@@ -27,7 +27,7 @@ export const generateAndSaveOtp = async (emailAddress) => {
   const newOtp = new OTP({
     emailAddress,
     otp: otpCode,
-    purpose: OTP_PURPOSES.LOGIN,
+    purpose,
   });
 
   await newOtp.save();
