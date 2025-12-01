@@ -6,3 +6,4 @@ export const locationRoute = `/${version}/locations`;
 export const packageRoute = `/${version}/packages`;
 export const templateRoute = `/${version}/template`;
 export const emailGatewayRoute = `/${version}/email-gateway`;
+export const companyDepartmentRoute = `/${version}/company-department`;

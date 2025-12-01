@@ -9,6 +9,7 @@ import {
   packageRoute,
   templateRoute,
   emailGatewayRoute,
+  companyDepartmentRoute,
 } from "../constant/routes.js";
 
 import superAdminRouter from "../routes/superAdmin/superAdminRouter.js";
@@ -20,6 +21,7 @@ import packageRouter from "./subscriptionPackage/subscriptionPackageRouter.js";
 import templateRouter from "./emailTemplate/emailtemplateRouter.js";
 import emailGatewayRouter from "./emailGateway/emailGatewayRouter.js";
 import forgotPasswordRouter from "./userAuth/forgotPassword.js";
+import departmentRouter from "./departments/departmentsRouter.js";
 
 mainRouter.use(superAdminRoute, superAdminRouter);
 mainRouter.use(authRoute, authRouter);
@@ -31,5 +33,6 @@ mainRouter.use(packageRoute, packageRouter);
 mainRouter.use(templateRoute, templateRouter);
 mainRouter.use(emailGatewayRoute, emailGatewayRouter);
 mainRouter.use(superAdminRoute, superAdminRouter);
+mainRouter.use(companyDepartmentRoute, departmentRouter);
 
 export default mainRouter;

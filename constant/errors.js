@@ -81,6 +81,11 @@ export const ERROR_MESSAGES = {
   INVALID_EMAIL_OR_PHONE: "Invalid email or phone number.",
   DUPLICATE_COMPANY: "Company with this email already exists.",
 
+  // Department related errors
+  DEPARTMENT_ALREADY_EXISTS: "Department with this name already exists.",
+  DEPARTMENT_NOT_FOUND: "Department not found.",
+  DEPARTMENTS_NOT_FOUND: "No departments found.",
+
   // General Errors
   INVALID_INPUT: "Invalid input for isActive.",
   NOT_FOUND: "Not Found.",
