@@ -5,11 +5,7 @@ import { errorLog, successLog } from "../utils/logger.js";
 
 export const connectToMongoDb = async () => {
   try {
-    const currentEnviromenmt = getCurrentRunningEnvironment();
-    const uri =
-      currentEnviromenmt === ENVIRONMENTS.LOCAL
-        ? process.env.MONGO_DB_URI_LOC
-        : process.env.MONGO_DB_URI_DEV;
+    const uri = process.env.MONGO_DB_URI;
 
     await mongoose.connect(uri);
     successLog(
